@@ -17,7 +17,7 @@ const animalType = document.getElementById("animal").value;
                 divInfo.firstChild.remove();
            };
 
-          if (numberInfo == ''){
+          if (numberInfo == '' || numberInfo < 1 || numberInfo > 10){
             alert('wpisz wartość w polu ilość ciekawostek z przedziału 1 do 10');
 //            break;
           }else if (numberInfo == 1){
